@@ -1,0 +1,53 @@
+body,html{
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #cfdac8;
+  background-image:url(hospital.jpg);
+  background-size: cover;
+}
+*{
+  box-sizing: border-box;
+}
+
+.homep{
+  text-align: center;
+  background-color: #cdd0cb;
+  margin: 0;
+}
+.homet{
+  margin:0;
+}
+a{
+  font-size: 3em;
+}
+.text{
+  position: relative;
+  display: inline-block;
+
+}
+.doctor{
+  background-color: #cdd0cb;
+  position: absolute;
+  right:290%;
+  top:80%;
+}
+.nurse{
+  background-color: #cdd0cb;
+  position: absolute;
+  right:50%;
+  top:80%;
+}
+
+.content{
+  background-color: #cdd0cb;
+
+}
+.contet ul{
+  display: inline-flex;
+  list-style: none;
+  color: #cdd0cb;
+  width: 120px;
+
+}

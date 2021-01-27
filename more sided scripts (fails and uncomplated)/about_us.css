@@ -1,0 +1,32 @@
+body{
+  font-family:'Oswald', sans-serif;
+}
+.titlehome{
+  position: absolute;
+  top:15%;
+  left: 30%;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.navbar-nav{
+  color: white;
+}
+.title{
+  text-align: center;
+
+}
+.ournames{
+  font-size: 1.5em;
+  margin: 2px 2px 2px 2px;
+  padding: 2px;
+}
+.auimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+h3{
+  margin: 2px 2px 2px 2px;
+  padding: 2px;
+}

@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body
+{
+    background-image:url(hospital.jpg);
+    background-size:cover;
+    font-family:'Oswald', sans-serif;
+    font-size: 1.5em;
+
+}
+.menu{
+   background: #7c9473;
+   text-align: center;
+}
+.menu ul{
+  display: inline-flex;
+  list-style: none;
+  color: #cfdac8;
+
+}
+.menu ul li{
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #cdd0cb;
+
+}
+.active , .menu ul li:hover{
+  background:#393e46;
+  border-radius: 3px;
+}
+h1{
+  position: absolute;
+  top:6em;
+  left:8em;
+  background-color: #cfdac8;
+  display: inline-block;
+
+}
